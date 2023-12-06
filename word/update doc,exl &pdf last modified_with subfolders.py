@@ -1,3 +1,6 @@
+"""This Python script traverses a directory (including subfolders) and processes files (Word documents, Excel files, and PDFs) modified before a specified date. It converts older .doc files to .docx, adds a space to .docx and Excel files, and duplicates PDFs while updating their last modified timestamps. This is to prevent old files from auto-archiving or getting deleted """
+
+
 import os
 import datetime
 from docx import Document
